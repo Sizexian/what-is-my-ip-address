@@ -76,6 +76,7 @@ if (!file_exists($filename)) {
 }
 $readFile = fopen("count", "r");
 $text = fgets($readFile);
+fclose($readFile);
 
 // This code is contributed by mits
 ?>
